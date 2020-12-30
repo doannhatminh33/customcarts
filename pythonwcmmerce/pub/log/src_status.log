@@ -1,0 +1,16 @@
+2020/12/29 16:05:26 : Url: http://192.168.10.14/customcart/le_connector/connector.php?action=check&token=200f90ecc40048f9b967fd815154110a&cart_type=custom&time=1609257898
+Data: 
+Data_encode: 
+Method: post
+Status: 407
+Response: Auth Failed (code: ip_forbidden)
+Error: 
+Proxy: http://lum-customer-hung_nguyen-zone-zone2_2:xkcbu4yj8vzr@zproxy.lum-superproxy.io:22225
+2020/12/29 16:05:51 : Url: http://192.168.10.14/customcart/le_connector/connector.php?action=check&token=200f90ecc40048f9b967fd815154110a&cart_type=custom&time=1609257898
+Data: 
+Data_encode: 
+Method: get
+Status: 407
+Response: Auth Failed (code: ip_forbidden)
+Error: 
+Proxy: http://lum-customer-hung_nguyen-zone-zone2_2:xkcbu4yj8vzr@zproxy.lum-superproxy.io:22225

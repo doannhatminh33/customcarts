@@ -1,0 +1,1 @@
+2020/12/30 08:15:11 : {"result": "success", "msg": null, "data": {"queryString": "DELETE wp_usermeta  FROM wp_usermeta LEFT JOIN wp_users ON wp_usermeta.user_id = wp_users.ID WHERE wp_users.ID IS NULL"}, "error": ""}

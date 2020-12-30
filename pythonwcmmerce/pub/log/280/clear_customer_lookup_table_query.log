@@ -1,0 +1,1 @@
+2020/12/30 08:09:30 : {"result": "success", "msg": null, "data": {"queryString": "DELETE wp_wc_customer_lookup  FROM wp_wc_customer_lookup LEFT JOIN wp_users ON wp_wc_customer_lookup.user_id = wp_users.ID WHERE wp_users.ID IS NULL"}, "error": ""}

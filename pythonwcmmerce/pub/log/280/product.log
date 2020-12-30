@@ -1,0 +1,2 @@
+2020/12/30 08:09:47 : Product : INSERT INTO `_DBPRF_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES (9961, null, 0): <span class="message-alert-error">SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'term_taxonomy_id' cannot be null</span>
+2020/12/30 08:09:48 : Product : INSERT INTO `_DBPRF_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES (9964, null, 0): <span class="message-alert-error">SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'term_taxonomy_id' cannot be null</span>

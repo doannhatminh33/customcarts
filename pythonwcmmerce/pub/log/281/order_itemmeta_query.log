@@ -1,0 +1,1 @@
+2020/12/30 08:12:46 : {"type": "query", "query": "DELETE `_DBPRF_woocommerce_order_itemmeta` WHERE order_item_id NOT IN (SELECT order_item_id FROM _DBPRF_woocommerce_order_items)"}

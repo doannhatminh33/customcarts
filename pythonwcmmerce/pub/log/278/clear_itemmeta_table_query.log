@@ -1,0 +1,1 @@
+2020/12/30 08:03:19 : {"result": "success", "msg": null, "data": false, "error": "SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE order_item_id NOT IN (SELECT order_item_id FROM `wp_woocommerce_order_i...' at line 1"}

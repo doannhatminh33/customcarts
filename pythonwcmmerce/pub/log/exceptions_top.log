@@ -1,0 +1,79 @@
+2020/12/23 07:26:58 : Can’t connect to source store connector url <a href='http://192.168.10.16/customcart/le_connector/connector.php' target='_blank'>http://192.168.10.16/customcart/le_connector/connector.php</a>, please check if this link is accessible and try again.
+2020/12/24 03:48:59 : Can’t connect to source store connector url <a href='http://192.168.31.104/customcart/le_connector/connector.php' target='_blank'>http://192.168.31.104/customcart/le_connector/connector.php</a>, please check if this link is accessible and try again.
+2020/12/25 20:12:33 : Can’t connect to source store connector url <a href='http://192.168.10.16/customcart/le_connector/connector.php' target='_blank'>http://192.168.10.16/customcart/le_connector/connector.php</a>, please check if this link is accessible and try again.
+2020/12/27 15:02:12 : Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 348, in setup_cart
+    setup_source = self.setup_source(data)
+  File "/var/www/python/cartmigration/controllers/migration.py", line 284, in setup_source
+    getattr(self.get_target_cart(), 'set_notice')(self._notice)
+  File "/var/www/python/cartmigration/libs/base_controller.py", line 115, in get_target_cart
+    self.target_cart = get_model(cart_name)
+  File "/var/www/python/cartmigration/libs/utils.py", line 97, in get_model
+    module_class = importlib.import_module(model_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4432
+    return response_success()
+    ^
+SyntaxError: 'return' outside function
+
+2020/12/27 15:04:05 : Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 348, in setup_cart
+    setup_source = self.setup_source(data)
+  File "/var/www/python/cartmigration/controllers/migration.py", line 284, in setup_source
+    getattr(self.get_target_cart(), 'set_notice')(self._notice)
+  File "/var/www/python/cartmigration/libs/base_controller.py", line 115, in get_target_cart
+    self.target_cart = get_model(cart_name)
+  File "/var/www/python/cartmigration/libs/utils.py", line 97, in get_model
+    module_class = importlib.import_module(model_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 4432
+    return response_success()
+    ^
+SyntaxError: 'return' outside function
+
+2020/12/28 03:11:42 : Traceback (most recent call last):
+  File "/var/www/python/cartmigration/controllers/migration.py", line 348, in setup_cart
+    setup_source = self.setup_source(data)
+  File "/var/www/python/cartmigration/controllers/migration.py", line 284, in setup_source
+    getattr(self.get_target_cart(), 'set_notice')(self._notice)
+  File "/var/www/python/cartmigration/libs/base_controller.py", line 115, in get_target_cart
+    self.target_cart = get_model(cart_name)
+  File "/var/www/python/cartmigration/libs/utils.py", line 97, in get_model
+    module_class = importlib.import_module(model_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/python/cartmigration/models/cart/woocommerce.py", line 3535
+    'term_taxonomy_id': category_id if category_id 1,
+                                                   ^
+SyntaxError: invalid syntax
+
+2020/12/29 09:16:06 : Can’t connect to source store connector url <a href='http://192.168.31.110/customcart/le_connector/connector.php' target='_blank'>http://192.168.31.110/customcart/le_connector/connector.php</a>, please check if this link is accessible and try again.
+2020/12/29 09:18:08 : Can’t connect to source store connector url <a href='http://192.168.31.104/customcart/le_connector/connector.php' target='_blank'>http://192.168.31.104/customcart/le_connector/connector.php</a>, please check if this link is accessible and try again.
+2020/12/29 09:22:50 : Can’t connect to source store connector url <a href='http://192.168.31.104/customcart/le_connector/connector.php' target='_blank'>http://192.168.31.104/customcart/le_connector/connector.php</a>, please check if this link is accessible and try again.
+2020/12/29 16:05:51 : Unfortunately, Source Connector is unable to read your site’s configuration. We can help you resolve this, please contact us.

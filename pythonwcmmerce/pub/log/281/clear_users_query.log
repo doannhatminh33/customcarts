@@ -1,0 +1,1 @@
+2020/12/30 08:12:45 : DELETE _DBPRF_users FROM _DBPRF_users LEFT JOIN _DBPRF_usermeta ON _DBPRF_users.ID = _DBPRF_usermeta.user_id WHERE _DBPRF_usermeta.meta_key IN ('_DBPRF_capabilities', '_DBPRF_capabilities') AND _DBPRF_usermeta.meta_value = 'a:1:{s:8:"customer";b:1;}'

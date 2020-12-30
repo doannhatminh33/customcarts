@@ -1,0 +1,10 @@
+2020/12/30 08:15:48 : Traceback (most recent call last):
+  File "/var/www/python/cartmigration/models/basecart.py", line 1325, in gzinflate
+    res = zlib.decompress(compressed_data, -15)
+zlib.error: Error -3 while decompressing data: invalid block type
+
+2020/12/30 08:15:48 : Traceback (most recent call last):
+  File "/var/www/python/cartmigration/models/basecart.py", line 1325, in gzinflate
+    res = zlib.decompress(compressed_data, -15)
+zlib.error: Error -3 while decompressing data: invalid block type
+

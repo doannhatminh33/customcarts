@@ -1,0 +1,1 @@
+2020/12/30 08:08:21 : DELETE _DBPRF_usermeta  FROM _DBPRF_usermeta LEFT JOIN _DBPRF_users ON _DBPRF_usermeta.user_id = _DBPRF_users.ID WHERE _DBPRF_users.ID IS NULL

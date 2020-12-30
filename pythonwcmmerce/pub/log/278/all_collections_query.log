@@ -1,0 +1,1 @@
+2020/12/30 08:03:18 : {"type": "query", "query": "DELETE FROM `_DBPRF_posts` WHERE post_type IN ('shop_order', 'shop_order_refund')"}

@@ -1,0 +1,67 @@
+2020/12/23 07:26:58 : Url: http://192.168.10.16/customcart/le_connector/connector.php
+Method: GET
+Status: 403
+Header: HTTP/1.1 403 Forbidden
+X-Luminati-Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
+Date: Wed, 23 Dec 2020 07:26:58 GMT
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
+2020/12/24 03:48:59 : Url: http://192.168.31.104/customcart/le_connector/connector.php
+Method: GET
+Status: 403
+Header: HTTP/1.1 403 Forbidden
+X-Luminati-Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
+Date: Thu, 24 Dec 2020 03:48:57 GMT
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
+2020/12/25 20:12:33 : Url: http://192.168.10.16/customcart/le_connector/connector.php
+Method: GET
+Status: 407
+Header: HTTP/1.1 407 Auth Failed (code: ip_forbidden)
+X-Luminati-Error: Auth Failed (code: ip_forbidden)
+Proxy-Authenticate: Basic realm="Luminati"
+Date: Fri, 25 Dec 2020 20:12:32 GMT
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+Error: Auth Failed (code: ip_forbidden)
+2020/12/29 09:16:06 : Url: http://192.168.31.110/customcart/le_connector/connector.php
+Method: GET
+Status: 403
+Header: HTTP/1.1 403 Forbidden
+X-Luminati-Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
+Date: Tue, 29 Dec 2020 09:16:06 GMT
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
+2020/12/29 09:18:08 : Url: http://192.168.31.104/customcart/le_connector/connector.php
+Method: GET
+Status: 403
+Header: HTTP/1.1 403 Forbidden
+X-Luminati-Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
+Date: Tue, 29 Dec 2020 09:18:08 GMT
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
+2020/12/29 09:22:50 : Url: http://192.168.31.104/customcart/le_connector/connector.php
+Method: GET
+Status: 403
+Header: HTTP/1.1 403 Forbidden
+X-Luminati-Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
+Date: Tue, 29 Dec 2020 09:22:50 GMT
+Connection: keep-alive
+Transfer-Encoding: chunked
+
+
+Error: Forbidden: You tried to target undefined but got blocked, please contact your account manager for further assistance
